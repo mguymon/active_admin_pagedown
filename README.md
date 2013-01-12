@@ -35,6 +35,8 @@ Now you can use the `pagedown_text` input via the `:as` option:
       end
     end
     
+Then you should see in your ActiveAdmin form:
+    
 ![Example Pagedown widget](https://raw.github.com/mguymon/active_admin_pagedown/master/pagedown.png)
     
 ## Caveats
