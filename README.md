@@ -38,4 +38,4 @@ Now you can use the `pagedown_text` input via the `:as` option:
 ## Caveats
 
 * Only will work with 1 field per page at the moment. The Pagedown JS looks for specific dom ids, which is hard coded in the input right now.
-* There is no image uploader.Pagedown on its own does not provide one, but it should be possible to add hooks to support it 
+* There is no image uploader. Pagedown on its own does not provide one, but it should be possible to add hooks to support it 
