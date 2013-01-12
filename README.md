@@ -35,6 +35,10 @@ Now you can use the `pagedown_text` input via the `:as` option:
       end
     end
     
+Then you should see in your ActiveAdmin form:
+    
+![Example Pagedown widget](https://raw.github.com/mguymon/active_admin_pagedown/master/pagedown.png)
+    
 ## Caveats
 
 * Only will work with 1 field per page at the moment. The Pagedown JS looks for specific dom ids, which is hard coded in the input right now.
