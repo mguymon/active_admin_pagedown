@@ -24,6 +24,10 @@ Add the following to active_admin.js.coffee to load the Pagedown javascript:
     
 If you want to use the simple default intializer for Pagedown, add the following as well:
 
+    //= require active_admin_pagedown/default
+    
+The default JS scans the page for `.wmd-input` tags and applies the Pagedown editor widget.
+
 ## Usage
 
 Now you can use the `pagedown_text` input via the `:as` option:
@@ -41,5 +45,4 @@ Then you should see in your ActiveAdmin form:
     
 ## Caveats
 
-* Only will work with 1 field per page at the moment. The Pagedown JS looks for specific dom ids, which is hard coded in the input right now.
 * There is no image uploader. Pagedown on its own does not provide one, but it should be possible to add hooks to support it 
